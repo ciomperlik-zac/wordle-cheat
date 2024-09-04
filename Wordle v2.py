@@ -9,7 +9,7 @@ info = ["","","","",""]
 word_list = []
 invalid_words = []
 
-with open("C:/Users/zciom/Desktop/words.txt", "r") as words:
+with open("words.txt", "r") as words:
     for line in words:
         word_list.append(line.strip())
 
